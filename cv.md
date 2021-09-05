@@ -13,7 +13,7 @@
 * CSS3
 * React basic
 * Redux basic
-Git
+* Git
 # Code Example 
 ```javascript
 function getMiddle(s){

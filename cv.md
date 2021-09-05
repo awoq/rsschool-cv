@@ -2,7 +2,7 @@
 # Contacts 
 **Location:** Kyiv, Ukraine
 
-**GitHub:** awoq
+**GitHub:** [awoq](https://github.com/awoq)
 
 **Discord:** Alyona#2530
 # About Me 

@@ -1,23 +1,18 @@
 # Olena Chuikova 
 # Contacts 
-Location: Kyiv, Ukraine
+**Location:** Kyiv, Ukraine
 
-GitHub: awoq
+**GitHub:** awoq
 
-Discord: Alyona#2530
+**Discord:** Alyona#2530
 # About Me 
-I want to get more practice in front-end development, improve my skills and get new knowledge.
+*I want to get more practice in front-end development, improve my skills and get new knowledge.*
 # Skills 
-JavaScript
-
-HTML5
-
-CSS3
-
-React basic
-
-Redux basic
-
+* JavaScript
+* HTML5
+* CSS3
+* React basic
+* Redux basic
 Git
 # Code Example 
 ```javascript
@@ -40,8 +35,8 @@ function getMiddle(s){
 # Education 
 National Technical University “Kharkiv Polytechnic Institute”, qualification: Bachelor Degree, Field of Study “Computer science”
 # Languages 
-Russian: native
+**Russian:** *native*
 
-Ukrainian: native
+**Ukrainian:** *native*
 
-English: intermediate
+**English:** *intermediate*

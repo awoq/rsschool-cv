@@ -14,6 +14,7 @@
 * React basic
 * Redux basic
 * Git
+
 # Code Example
 **7 kyu kata: [Get the Middle Character](https://www.codewars.com/kata/get-the-middle-character)**
 
@@ -35,6 +36,7 @@ function getMiddle(s){
 * React application “Quiz App” for creating tests (React, JavaScript, JSX, SCSS, Redux)
 * Portfolio website for teacher “LVnotes” (WordPress, JS, Php, CSS)
 * JavaFx UI for course project “Solving a linear programming problem by the simplex method” (JavaFx, CSS)
+
 # Education 
 National Technical University “Kharkiv Polytechnic Institute”, qualification: Bachelor Degree, Field of Study “Computer science”
 # Languages 

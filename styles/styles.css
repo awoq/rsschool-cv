@@ -64,7 +64,7 @@
     height: 100%;
     object-fit: cover;
   }
-  
+
   .profile_text h2 {
     margin-top: 20px;
     color: var(--primary-light-color-);
@@ -103,6 +103,13 @@
     cursor: pointer;
   }
   
+  .contact_info ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: var(--secondary-light-color-);
+  }
+
   .contact_info ul li span {
     color: var(--primary-light-color-);
     font-weight: 300;

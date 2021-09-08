@@ -1,1 +1,1 @@
-https://awoq.github.io/rsschool-cv/cv
+https://awoq.github.io/rsschool-cv/

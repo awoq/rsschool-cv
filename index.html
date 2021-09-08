@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Olena Chuikova CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="left_side">
+      <section class="profile_text">
+        <div class="img_bx">
+          <img src="images/image.jpg" alt="">
+        </div>
+        <h2>Olena Chuikova<br><span>Front-end developer</span></h2>
+      </section>
+      <section class="contact_info">
+        <h3 class="title">Contacts</h3>
+        <ul>
+          <li>
+            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <span class="text">Kyiv, Ukraine</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <span class="text">moreiiisky@gmail.com</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+            <span class="text">awoq</span>
+          </li>
+        </ul>
+      </section>
+      <section class="contact_info education">
+        <h3 class="title">Education</h3>
+        <ul>
+          <li>
+            <h5>2014 - 2018</h5>
+            <h4>Bachelor Degree in Computer Science</h4>
+            <h4>National Technical University “Kharkiv Polytechnic Institute”</h4>
+          </li>
+        </ul>
+      </section>
+      <section class="contact_info languages">
+        <h3 class="title">Languages</h3>
+        <ul>
+          <li>
+            <span class="text">English</span>
+            <div class="percent">
+              <div style="width: 50%;"></div>
+            </div>
+          </li>
+          <li>
+            <span class="text">Russian</span>
+            <div class="percent">
+              <div style="width: 95%;"></div>
+            </div>
+          </li>
+          <li>
+            <span class="text">Ukrainian</span>
+            <div class="percent">
+              <div style="width: 95%;"></div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </aside>
+    <main class="right_side">
+      <section class="about">
+        <h2 class="title2">About me</h2>
+        <p>I want to get more practice in front-end development, improve my skills and get new knowledge.</p>
+      </section>
+      <section class="about skills">
+        <h2 class="title2">Skills</h2>
+        <div class="box">
+          <h4>JavaScript</h4>
+          <div class="percent">
+            <div style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="box">
+          <h4>HTML5</h4>
+          <div class="percent">
+            <div style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="box">
+          <h4>CSS3</h4>
+          <div class="percent">
+            <div style="width: 60%;"></div>
+          </div>
+        </div>
+        <div class="box">
+          <h4>React</h4>
+          <div class="percent">
+            <div style="width: 40%;"></div>
+          </div>
+        </div>
+        <div class="box">
+          <h4>Redux</h4>
+          <div class="percent">
+            <div style="width: 30%;"></div>
+          </div>
+        </div>
+        <div class="box">
+          <h4>Git</h4>
+          <div class="percent">
+            <div style="width: 55%;"></div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <h2 class="title2">Projects</h2>
+        <article class="box">
+          <h4>Quiz Application</h4>
+          <h5>React application for creating tests (React, JavaScript, JSX, SCSS, Redux)</h5>
+        </article>
+        <article class="box">
+          <h4>Landing page</h4>
+          <h5>Portfolio website for teacher (WordPress, JS, Php, CSS)</h5>
+        </article>
+        <article class="box">
+          <h4>Course project</h4>
+          <h5>JavaFx UI for solving a linear programming problem by the simplex method (JavaFx, CSS)</h5>
+        </article>
+      </section>
+      <section class="about code_example">
+        <h2 class="title2">Code Example</h2>
+        <pre><code class="language-javascript">
+          function getMiddle(s) {
+            let length = s.length;
+            if(length % 2 > 0) {
+                let middleIndex = (length - 1) / 2;
+                return s.substr(middleIndex, 1)
+            }
+            else {
+                let middleIndex = (length / 2) - 1;
+                return s.substr(middleIndex, 2)
+            }
+        }
+        </code></pre>
+      </section>
+    </main>
+    <footer>
+      <div class="git_link">
+        <a href ="https://github.com/awoq" target="_blank">
+          <span class="icon">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+          Visit my GitHub</a>
+      </div>
+      <div>© 2021</div>
+      <div class="logo">
+        <a href="https://rs.school/js/" target="_blank">
+          <img src="images/rs_school_js.svg" alt="">
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

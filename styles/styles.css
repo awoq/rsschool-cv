@@ -234,14 +234,23 @@ footer {
   color: var(--primary-light-color-);
   text-transform: uppercase;
 }
-  
+
 footer div {
   margin: auto;
   justify-items: center;
 }
-  
+
+footer .git_link .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 20px;
+}
+
 footer .git_link a {
   color: var(--primary-light-color-);
   text-decoration: none;
 }
-  
+
+footer .logo img{
+  height: 40px;
+}

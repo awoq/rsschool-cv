@@ -75,7 +75,7 @@ body {
   line-height: 1.4em;
 }
   
-.profile_text h2 span{
+.profile_text h2 span {
   font-size: 0.8em;
   font-weight: 300;
 }
@@ -115,7 +115,7 @@ body {
   font-weight: 300;
 }
   
-.contact_info.education li{
+.contact_info.education li {
   margin-bottom: 15px;
 }
   
@@ -251,7 +251,7 @@ footer .git_link a {
   text-decoration: none;
 }
 
-footer .logo img{
+footer .logo img {
   height: 40px;
 }
 
@@ -266,6 +266,7 @@ footer .logo img{
   .about .box {
     margin-bottom: 5px;
   }
+
   .skills .box{
     grid-template-columns: repeat(1,1fr);
   }

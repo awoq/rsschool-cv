@@ -254,3 +254,19 @@ footer .git_link a {
 footer .logo img{
   height: 40px;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about .box {
+    margin-bottom: 5px;
+  }
+  .skills .box{
+    grid-template-columns: repeat(1,1fr);
+  }
+}

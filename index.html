@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
   <div class="container">
@@ -128,7 +131,7 @@
       </section>
       <section class="about code_example">
         <h2 class="title2">Code Example</h2>
-        <pre>
+        <pre><code class="language-javascript">
           function getMiddle(s) {
             let length = s.length;
             if(length % 2 > 0) {
@@ -140,7 +143,7 @@
                 return s.substr(middleIndex, 2)
             }
         }
-        </pre>
+        </code></pre>
       </section>
     </main>
     <footer>

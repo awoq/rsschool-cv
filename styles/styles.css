@@ -103,20 +103,23 @@ nav .icon {
 }
 
 @media screen and (max-width: 600px) {
-  nav.responsive ul{
+  nav.responsive ul {
     flex-direction: column;
     flex-wrap: wrap;
-    position: relative;}
+    position: relative;
+  }
 
-    nav.responsive ul li{
-      display: block;
-      position: relative;}
+  nav.responsive ul li {
+    display: block;
+    position: relative;
+  }
 
   nav.responsive ul li a.icon {
     position: relative;
     right: 0;
     top: 0;
   }
+
   nav.responsive ul li a {
     float: none;
     display: block;
@@ -316,6 +319,12 @@ p {
   color: var(--secondary-light-color-);
   font-size: 16px;
 }
+
+.about .box a img {
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
   
 .skills .box {
   position: relative;
@@ -327,7 +336,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  .skills .box{
+  .skills .box {
     grid-template-columns: repeat(1,1fr);
   }
 }

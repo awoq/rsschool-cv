@@ -1,11 +1,15 @@
 :root {
   --background-color-: #FFF4F5;
   --primary-dark-color-: #444F5A;
-  --primary-light-color-: #fff;
+  --primary-light-color-: #FFFFFF;
   --secondary-dark-color-: #3E4149;
   --secondary-light-color-: #D96B5F;
 }
-  
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +18,110 @@
 }
   
 body {
-  display: flex;
+  display: block;
   min-height: 100vh;
   background: var(--background-color-);
   justify-content: center;
   align-items: center;
+}
+
+header {
+  display: flex;
+  min-height: 70px;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 50px auto 15px auto;
+  font-size: 16px;
+  background: var(--secondary-dark-color-);
+  color: var(--primary-light-color-);
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    margin: 10px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    margin: 0;
+    width: auto;
+  }
+}
+
+header nav ul {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 0 19px;
+}
+
+header nav ul li:first-child {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--primary-light-color-);
+}
+
+header nav ul li a:hover {
+  color: var(--secondary-light-color-);
+}
+
+nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul li:not(:first-child) {
+    display: none;
+  }
+  
+  nav ul li a.icon {
+    margin: 13px;
+    padding: 10px;
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.responsive ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;}
+
+    nav.responsive ul li{
+      display: block;
+      position: relative;}
+
+  nav.responsive ul li a.icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive ul li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
   
 .container {
@@ -26,13 +129,28 @@ body {
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
-  margin: 50px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   background: var(--primary-light-color-);
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-  
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 0 10px;
+    width: auto;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    margin: 0;
+    width: auto;
+  }
+}
+
 .container .left_side {
   position: relative;
   padding: 40px;
@@ -51,7 +169,7 @@ body {
 .profile_text .img_bx {
   position: relative;
   width: 200px;
-  height:200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -172,13 +290,19 @@ body {
 }
   
 p {
-  color: #333;
+  color: #333333;
 }
   
 .about .box {
   display: flex;
   margin: 20px 0;
   flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .about .box {
+    margin-bottom: 5px;
+  }
 }
   
 .about .box h5 {
@@ -201,7 +325,13 @@ p {
   justify-content: center;
   align-items: center;
 }
-  
+
+@media screen and (max-width: 600px) {
+  .skills .box{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
 .skills .box h4 {
   text-transform: uppercase;
   color:#848C99;
@@ -212,7 +342,7 @@ p {
   position: relative;
   width: 100%;
   height: 10px;
-  background: #f0f0f0;
+  background: #F0F0F0;
 }
   
 .skills .box .percent div {
@@ -222,17 +352,39 @@ p {
   height: 100%;
   background: var(--secondary-light-color-);
 }
-    
+
+@media screen and (max-width: 450px) {
+  .language-javascript {
+    font-size: 11px;
+  }
+}
+
 footer {
+  position: relative;
   height: 70px;
+  width: 100%;
+  max-width: 1000px;
   display: grid;
-  grid-column-start: 1;
-  grid-column-end: -1;
+  margin: 15px auto 50px auto;
   grid-template-columns: 1fr 1fr 1fr;
-  font-size: 14px;
+  font-size: 16px;
   background: var(--secondary-dark-color-);
   color: var(--primary-light-color-);
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    margin: 10px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer {
+    margin: 0;
+    width: auto;
+  }
 }
 
 footer div {
@@ -253,21 +405,4 @@ footer .git_link a {
 
 footer .logo img {
   height: 40px;
-}
-
-@media (max-width: 1000px) {
-  .container {
-    margin: 10px;
-    grid-template-columns: repeat(1,1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .about .box {
-    margin-bottom: 5px;
-  }
-
-  .skills .box{
-    grid-template-columns: repeat(1,1fr);
-  }
 }

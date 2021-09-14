@@ -25,6 +25,10 @@ body {
   align-items: center;
 }
 
+p {
+  text-align: justify;
+}
+
 header {
   display: flex;
   min-height: 70px;
@@ -322,8 +326,15 @@ p {
 
 .about .box a img {
   position: relative;
+  margin-top: 5px;
   width: 100%;
   box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.about .box a:hover img {
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
 }
   
 .skills .box {

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+	<title>Alyona Chuikova CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+</head>
+<body>
+  <header>
+    <nav id="nav" class="nav">
+      <ul>
+        <li><a href="javascript:void(0)" class="icon" onclick="addNavClass()">
+          <i class="fa fa-bars"></i>
+        </a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#code_example">Code Example</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <aside class="left_side">
+      <section class="profile_text">
+        <div class="img_bx">
+          <img src="images/image.jpg" alt="photo">
+        </div>
+        <h2>Alyona Chuikova<br><span>Front-end developer</span></h2>
+      </section>
+      <section class="contact_info" id="contacts">
+        <h3 class="title">Contacts</h3>
+        <ul>
+          <li>
+            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <span class="text">Kyiv, Ukraine</span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <span class="text"><a class="contacts_link" href="mailto:moreiiisky@gmail.com">moreiiisky@gmail.com</a></span>
+          </li>
+          <li>
+            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+            <span class="text"><a class="contacts_link" href ="https://github.com/awoq" target="_blank">awoq</a></span>
+          </li>
+        </ul>
+      </section>
+      <section class="contact_info education" id="education">
+        <h3 class="title">Education</h3>
+        <ul>
+          <li>
+            <h5>2014 - 2018</h5>
+            <h4>Bachelor Degree in Computer Science</h4>
+            <h4>National Technical University “Kharkiv Polytechnic Institute”</h4>
+          </li>
+        </ul>
+      </section>
+      <section class="contact_info languages" id="languages">
+        <h3 class="title">Languages</h3>
+        <ul>
+          <li>
+            <span class="text">English</span>
+            <div class="percent">
+              <div style="width: 50%;"></div>
+            </div>
+          </li>
+          <li>
+            <span class="text">Russian</span>
+            <div class="percent">
+              <div style="width: 95%;"></div>
+            </div>
+          </li>
+          <li>
+            <span class="text">Ukrainian</span>
+            <div class="percent">
+              <div style="width: 95%;"></div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </aside>
+    <main class="right_side">
+      <section class="about" id="about">
+        <h2 class="title2">About me</h2>
+        <p>I had worked in the field of info business for some time. 
+          Finally, I realized that programming is what attracts me the most. 
+          Now I'm learning JavaScript and related technologies. 
+          I want to get more practice in front-end development, 
+          improve my skills and get new experience.</p>
+      </section>
+      <section class="about skills" id="skills">
+        <h2 class="title2">Skills</h2>
+        <ul>
+          <li class="box">
+           <h4>JavaScript</h4>
+            <div class="percent">
+              <div style="width: 70%;"></div>
+            </div>
+          </li>
+          <li class="box">
+            <h4>HTML5</h4>
+            <div class="percent">
+              <div style="width: 70%;"></div>
+            </div>
+          </li>
+          <li class="box">
+            <h4>CSS3</h4>
+            <div class="percent">
+             <div style="width: 60%;"></div>
+            </div>
+          </li>
+          <li class="box">
+           <h4>React</h4>
+            <div class="percent">
+             <div style="width: 40%;"></div>
+           </div>
+         </li>
+          <li class="box">
+            <h4>Redux</h4>
+            <div class="percent">
+             <div style="width: 30%;"></div>
+           </div>
+         </li>
+         <li class="box">
+            <h4>Git</h4>
+            <div class="percent">
+             <div style="width: 55%;"></div>
+           </div>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <h2 class="title2" id="projects">Projects</h2>
+        <article class="box">
+          <h4>Museum</h4>
+          <h5>Landing page with a form for bying tickets (HTML5, CSS3, JavaScript)</h5>
+          <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/museum-dom/" target="_blank">
+            <img src="images/museum.jpg" alt="Museum project">
+          </a>
+        </article>
+        <article class="box">
+          <h4>Momentum</h4>
+          <h5>Analogue of the self-titled Google Chrome extension (JavaScript, HTML5, CSS3)</h5>
+          <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/momentum/" target="_blank">
+            <img src="images/momentum.jpg" alt="Momentum project">
+          </a>
+        </article>
+        <article class="box">
+          <h4>Art Quiz</h4>
+          <h5>SPA quiz on the knowledge of painting masterpieces and their authors (JavaScript, HTML5, CSS3)</h5>
+          <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/art-quiz/" target="_blank">
+            <img src="images/art-quiz.jpg" alt="Art Quiz Project">
+          </a>
+        </article>
+      </section>
+      <section class="about code_example" id="code_example">
+        <h2 class="title2">Code Example</h2>
+        <pre><code class="language-javascript">
+ function getMiddle(s) {
+   let length = s.length;
+     if(length % 2 > 0) {
+       let middleIndex = (length - 1) / 2;
+       return s.substr(middleIndex, 1)
+     }
+     else {
+       let middleIndex = (length / 2) - 1;
+       return s.substr(middleIndex, 2)
+     }
+ } 
+        </code></pre>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <div class="git_link">
+      <a href ="https://github.com/awoq" target="_blank">
+        <span class="icon">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </span>
+        Visit my GitHub</a>
+    </div>
+    <div>© 2021</div>
+    <div class="logo">
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="images/rs_school_js.svg" alt="rsschool">
+      </a>
+    </div>
+  </footer>
+  <script src="js/nav.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

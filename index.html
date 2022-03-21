@@ -3,7 +3,8 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-	<title>Alyona Chuikova CV</title>
+	<title>Olena Chuikova CV</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
@@ -22,7 +23,6 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#languages">Languages</a></li>
-        <li><a href="#code_example">Code Example</a></li>
       </ul>
     </nav>
   </header>
@@ -30,9 +30,9 @@
     <aside class="left_side">
       <section class="profile_text">
         <div class="img_bx">
-          <img src="images/image.jpg" alt="photo">
+          <img src="images/image1.jpg" alt="photo">
         </div>
-        <h2>Alyona Chuikova<br><span>Front-end developer</span></h2>
+        <h2>Olena Chuikova<br><span>Front-end developer</span></h2>
       </section>
       <section class="contact_info" id="contacts">
         <h3 class="title">Contacts</h3>
@@ -71,13 +71,13 @@
             </div>
           </li>
           <li>
-            <span class="text">Russian</span>
+            <span class="text">Ukrainian</span>
             <div class="percent">
               <div style="width: 95%;"></div>
             </div>
           </li>
           <li>
-            <span class="text">Ukrainian</span>
+            <span class="text">russian</span>
             <div class="percent">
               <div style="width: 95%;"></div>
             </div>
@@ -104,15 +104,21 @@
             </div>
           </li>
           <li class="box">
+            <h4>TypeScript</h4>
+            <div class="percent">
+             <div style="width: 55%;"></div>
+           </div>
+          </li>
+          <li class="box">
             <h4>HTML5</h4>
             <div class="percent">
-              <div style="width: 70%;"></div>
+              <div style="width: 90%;"></div>
             </div>
           </li>
           <li class="box">
             <h4>CSS3</h4>
             <div class="percent">
-             <div style="width: 60%;"></div>
+             <div style="width: 85%;"></div>
             </div>
           </li>
           <li class="box">
@@ -127,53 +133,58 @@
              <div style="width: 30%;"></div>
            </div>
          </li>
-         <li class="box">
-            <h4>Git</h4>
-            <div class="percent">
-             <div style="width: 55%;"></div>
-           </div>
-          </li>
         </ul>
       </section>
       <section class="about">
         <h2 class="title2" id="projects">Projects</h2>
-        <article class="box">
-          <h4>Museum</h4>
-          <h5>Landing page with a form for bying tickets (HTML5, CSS3, JavaScript)</h5>
-          <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/museum-dom/" target="_blank">
-            <img src="images/museum.jpg" alt="Museum project">
-          </a>
-        </article>
-        <article class="box">
-          <h4>Momentum</h4>
-          <h5>Analogue of the self-titled Google Chrome extension (JavaScript, HTML5, CSS3)</h5>
-          <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/momentum/" target="_blank">
-            <img src="images/momentum.jpg" alt="Momentum project">
-          </a>
-        </article>
-        <article class="box">
-          <h4>Art Quiz</h4>
-          <h5>SPA quiz on the knowledge of painting masterpieces and their authors (JavaScript, HTML5, CSS3)</h5>
-          <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/art-quiz/" target="_blank">
-            <img src="images/art-quiz.jpg" alt="Art Quiz Project">
-          </a>
-        </article>
-      </section>
-      <section class="about code_example" id="code_example">
-        <h2 class="title2">Code Example</h2>
-        <pre><code class="language-javascript">
- function getMiddle(s) {
-   let length = s.length;
-     if(length % 2 > 0) {
-       let middleIndex = (length - 1) / 2;
-       return s.substr(middleIndex, 1)
-     }
-     else {
-       let middleIndex = (length / 2) - 1;
-       return s.substr(middleIndex, 2)
-     }
- } 
-        </code></pre>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <div class="container1">
+          <div class="card">
+            <figure class="card__thumb">
+              <img src="images/museum-dom_.png" alt="Museum project" class="card__image">
+              <figcaption class="card__caption">
+                <h2 class="card__title">Museum</h2>
+                <p class="card__snippet">Landing page with a form for bying tickets (HTML5, CSS3, JavaScript)</p>
+                <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/museum-dom/" target="_blank" class="card__button">Inspect</a>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="card">
+            <figure class="card__thumb">
+              <img src="images/momentum_.png" alt="Momentum project" class="card__image">
+              <figcaption class="card__caption">
+                <h2 class="card__title">Momentum</h2>
+                <p class="card__snippet">Analogue of the self-titled Google Chrome extension (JavaScript, HTML5, CSS3)</p>
+                <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/momentum/" target="_blank" class="card__button">Inspect</a>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="card">
+            <figure class="card__thumb">
+              <img src="images/art-quiz_.png" alt="Art Quiz project" class="card__image">
+              <figcaption class="card__caption">
+                <h2 class="card__title">Art Quiz</h2>
+                <p class="card__snippet">SPA quiz on the knowledge of painting masterpieces and their authors (JavaScript, HTML5, CSS3)</p>
+                <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/art-quiz/" target="_blank" class="card__button">Inspect</a>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="card">
+            <figure class="card__thumb">
+              <img src="images/christmas-task_.png" alt="Christmas Task project" class="card__image">
+              <figcaption class="card__caption">
+                <h2 class="card__title">Christmas Task</h2>
+                <p class="card__snippet">SPA with filters and drag-and-drop (TypeScript, HTML5, CSS3)</p>
+                <a href="https://rolling-scopes-school.github.io/awoq-JSFE2021Q3/christmas-task/" target="_blank" class="card__button">Inspect</a>
+              </figcaption>
+            </figure>
+          </div>
+
+
       </section>
     </main>
   </div>
@@ -185,12 +196,7 @@
         </span>
         Visit my GitHub</a>
     </div>
-    <div>© 2021</div>
-    <div class="logo">
-      <a href="https://rs.school/js/" target="_blank">
-        <img src="images/rs_school_js.svg" alt="rsschool">
-      </a>
-    </div>
+    <div>© 2022</div>
   </footer>
   <script src="js/nav.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
